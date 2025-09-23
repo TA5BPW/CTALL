@@ -177,11 +177,11 @@ Objects {
   Settings {
     IsDefault: true
     PlayerMovementSettings {
-      WalkSpeed: 640
+      WalkSpeed: 280
       MaxAcceleration: 1800
       WalkableFloorAngle: 44
       JumpMaxCount: 1
-      JumpVelocity: 900
+      JumpVelocity: 500
       GroundFriction: 8
       GravityScale: 1.9
       MaxSwimSpeed: 420
@@ -233,6 +233,50 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8585926579969983926
+  Name: "Shift to Sprint"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9086936746104183945
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9282214366166580901
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Shift to Sprint"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "cs:WalkSpeed"
+          Float: 280
+        }
+        Overrides {
+          Name: "cs:RunSpeed"
+          Float: 800
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1165851155529550858
+    }
+  }
 }
 Objects {
   Id: 16123814510452902121
