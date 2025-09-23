@@ -42,9 +42,9 @@ Objects {
   Name: "Craftsman Wall 01 Half "
   Transform {
     Location {
-      X: 6200
-      Y: 2050
-      Z: -200
+      X: 6100
+      Y: 2650
+      Z: 200
     }
     Rotation {
     }
