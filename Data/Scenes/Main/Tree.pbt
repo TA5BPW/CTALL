@@ -19,6 +19,9 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 15442359747375285373
+  ChildIds: 2388139603336426307
+  ChildIds: 7203547058043267517
+  ChildIds: 9828858041454654959
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,6 +34,128 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9828858041454654959
+  Name: "Craftsman Roof 01 - Peak End with Wall Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13950443573647490974
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Craftsman Roof 01 - Peak End with Wall Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4400
+            Y: 3050
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2414621382663407996
+    }
+  }
+}
+Objects {
+  Id: 7203547058043267517
+  Name: "Craftsman Roof 01 - End with Wall Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18090161168901983498
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Craftsman Roof 01 - End with Wall Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3800
+            Y: 1400
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 8121398901069243690
+    }
+  }
+}
+Objects {
+  Id: 2388139603336426307
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: 4000
+      Y: 2200
+      Z: -200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13902435213913275280
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
