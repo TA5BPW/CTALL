@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10744213444307714649
+  Name: "Craftsman Wall Interior 01 Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_int_001_half"
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
