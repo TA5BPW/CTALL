@@ -62,7 +62,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 4400
+            X: 5050
             Y: 3050
             Z: -200
           }
@@ -167,9 +167,9 @@ Objects {
   Name: "Craftsman Wall 01 Half "
   Transform {
     Location {
-      X: 6100
-      Y: 2650
-      Z: 200
+      X: 6350
+      Y: 2100
+      Z: 500
     }
     Rotation {
     }
@@ -221,7 +221,7 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      X: 5000
+      X: 4900
       Z: -250
     }
     Rotation {
