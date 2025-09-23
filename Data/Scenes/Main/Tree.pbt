@@ -18,6 +18,7 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
+  ChildIds: 15442359747375285373
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,6 +38,60 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 15442359747375285373
+  Name: "Craftsman Wall 01 Half "
+  Transform {
+    Location {
+      X: 6200
+      Y: 2050
+      Z: -200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13219225140542713344
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 14982843161775482339
   Name: "Default Floor"
   Transform {
@@ -47,8 +102,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 70
+      X: 40
+      Y: 80
       Z: 1
     }
   }
@@ -468,7 +523,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2550
+      X: 3550
       Y: 3450
       Z: -100
     }

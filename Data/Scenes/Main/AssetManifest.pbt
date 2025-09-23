@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13219225140542713344
+  Name: "Craftsman Wall 01 Half "
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_half"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
