@@ -22,6 +22,9 @@ Objects {
   ChildIds: 2388139603336426307
   ChildIds: 7203547058043267517
   ChildIds: 9828858041454654959
+  ChildIds: 16303500460009716059
+  ChildIds: 15775849373402856589
+  ChildIds: 15049706176807566855
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +42,108 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15049706176807566855
+  Name: "Corrugated Sheet Wall 01 Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14081811635123324547
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Corrugated Sheet Wall 01 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 3950
+            Y: -2700
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13356618921226538871
+    }
+  }
+}
+Objects {
+  Id: 15775849373402856589
+  Name: "Corrugated Sheet Wall 02 Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17402911210347802175
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Corrugated Sheet Wall 02 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4300
+            Y: -2800
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2544568724028899473
+    }
+  }
+}
+Objects {
+  Id: 16303500460009716059
+  Name: "Corrugated Sheet Wall 03 Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11896160375367793387
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Corrugated Sheet Wall 03 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4650
+            Y: -2750
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11572218529308317821
+    }
+  }
 }
 Objects {
   Id: 9828858041454654959
