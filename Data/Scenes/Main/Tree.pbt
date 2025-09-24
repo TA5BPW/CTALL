@@ -18,7 +18,23 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
+<<<<<<< HEAD
   ChildIds: 13290555611238348012
+=======
+  ChildIds: 15442359747375285373
+  ChildIds: 2388139603336426307
+  ChildIds: 10661439058125771922
+  ChildIds: 7966587210715583809
+  ChildIds: 6916591628401286532
+  ChildIds: 1219614435166665369
+  ChildIds: 1229744541572872200
+  ChildIds: 11373763294400462443
+  ChildIds: 12120322869659478609
+  ChildIds: 7203547058043267517
+  ChildIds: 9828858041454654959
+  ChildIds: 16303500460009716059
+  ChildIds: 15775849373402856589
+>>>>>>> main
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,8 +54,81 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+<<<<<<< HEAD
   Id: 13290555611238348012
   Name: "UI Container"
+=======
+  Id: 15775849373402856589
+  Name: "Corrugated Sheet Wall 02 Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17402911210347802175
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Corrugated Sheet Wall 02 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5700
+            Y: -2800
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2544568724028899473
+    }
+  }
+}
+Objects {
+  Id: 16303500460009716059
+  Name: "Corrugated Sheet Wall 03 Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11896160375367793387
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Corrugated Sheet Wall 03 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4650
+            Y: -2750
+            Z: -200
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11572218529308317821
+    }
+  }
+}
+Objects {
+  Id: 9828858041454654959
+  Name: "Craftsman Roof 01 - Peak End with Wall Template"
+>>>>>>> main
   Transform {
     Location {
     }
