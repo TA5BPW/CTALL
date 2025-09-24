@@ -53,7 +53,7 @@ Objects {
   ChildIds: 3544886632954836942
   ChildIds: 8640808680693962744
   ChildIds: 6798861055485208292
-  ChildIds: 9666306116174861982
+  ChildIds: 4287112810214093888
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -73,20 +73,20 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9666306116174861982
-  Name: "Fantasy Castle Wall Interior 01- Half"
+  Id: 4287112810214093888
+  Name: "Column Base 01"
   Transform {
     Location {
-      X: 6550
-      Y: -7400
+      X: -1000
+      Y: -5700
       Z: -200
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 11.0000019
+      Y: 15.75
+      Z: 3
     }
   }
   ParentId: 4781671109827199097
@@ -104,7 +104,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 14074193337057778188
+      Id: 8603367092846680565
     }
     Teams {
       IsTeamCollisionEnabled: true
