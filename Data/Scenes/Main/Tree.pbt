@@ -2177,9 +2177,8 @@ Objects {
     Location {
       X: 4900
 <<<<<<< Updated upstream
-      Y: -4000
 =======
-      Y: -4050
+      Y: -4020
 >>>>>>> Stashed changes
       Z: -200
     }
