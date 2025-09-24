@@ -69,72 +69,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-<<<<<<< Updated upstream
-  Id: 5181891371530816117
-  Name: "Craftsman Part - Wall 01"
-  Transform {
-    Location {
-      X: 4900
-      Y: -3200
-=======
-  Id: 14940255996754961558
-  Name: "Craftsman Part - Wall 01"
-  Transform {
-    Location {
-      X: 4650
-      Y: -2850
->>>>>>> Stashed changes
-      Z: -200
-    }
-    Rotation {
-      Yaw: -90
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12560833313786218806
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-<<<<<<< Updated upstream
-=======
   Id: 5181891371530816117
   Name: "Craftsman Part - Wall 01"
   Transform {
@@ -190,7 +124,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
->>>>>>> Stashed changes
   Id: 1401360238530458542
   Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
   Transform {
