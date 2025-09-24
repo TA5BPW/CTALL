@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14421336429618272312
+  Name: "Animated Neon Sign - Basketball Static"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "fxsm_NeonSign_BasketBall_static"
+  }
+}
+Assets {
   Id: 12560833313786218806
   Name: "Craftsman Part - Wall 01"
   PlatformAssetType: 1
