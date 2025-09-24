@@ -8,12 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14421336429618272312
-  Name: "Animated Neon Sign - Basketball Static"
+  Id: 14074193337057778188
+  Name: "Fantasy Castle Wall Interior 01- Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_NeonSign_BasketBall_static"
+    AssetId: "sm_ts_fan_cas_wall_int_half_001"
   }
 }
 Assets {
