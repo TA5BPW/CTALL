@@ -1440,7 +1440,7 @@ Objects {
   Transform {
     Location {
       X: 4900
-      Y: -1050
+      Y: -4000
       Z: -200
     }
     Rotation {
