@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7538197924200364462
-  Name: "Animated Neon Sign - Bat"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "fxsm_neonSign_flappyBat"
-  }
-}
-Assets {
   Id: 1980403840043012135
   Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
   PlatformAssetType: 1
