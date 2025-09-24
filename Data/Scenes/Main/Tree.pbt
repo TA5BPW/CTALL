@@ -24,7 +24,6 @@ Objects {
   ChildIds: 5485680012324450213
   ChildIds: 16304107524568409870
   ChildIds: 14797690092682439163
-  ChildIds: 17774722489592206694
   ChildIds: 15520232243205192760
   ChildIds: 4426879284263662544
   ChildIds: 13448255995484759593
@@ -50,6 +49,7 @@ Objects {
   ChildIds: 10838432286686515243
   ChildIds: 2376930919426222561
   ChildIds: 1401360238530458542
+  ChildIds: 5181891371530816117
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -62,6 +62,61 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5181891371530816117
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: 4900
+      Y: -3200
+      Z: -200
+    }
+    Rotation {
+      Yaw: -90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12560833313786218806
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1390,61 +1445,6 @@ Objects {
       Z: -200
     }
     Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1980403840043012135
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 17774722489592206694
-  Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
-  Transform {
-    Location {
-      X: 4900
-      Y: -4000
-      Z: -200
-    }
-    Rotation {
-      Yaw: -90
     }
     Scale {
       X: 1
