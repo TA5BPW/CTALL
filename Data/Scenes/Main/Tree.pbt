@@ -50,7 +50,10 @@ Objects {
   ChildIds: 2376930919426222561
   ChildIds: 1401360238530458542
   ChildIds: 5181891371530816117
-  ChildIds: 5282585553314746864
+<<<<<<< Updated upstream
+=======
+  ChildIds: 14940255996754961558
+>>>>>>> Stashed changes
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -70,15 +73,25 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5282585553314746864
-  Name: "Animated Neon Sign - Basketball Static"
+<<<<<<< Updated upstream
+  Id: 5181891371530816117
+  Name: "Craftsman Part - Wall 01"
   Transform {
     Location {
-      X: 7350
-      Y: -4950
+      X: 4900
+      Y: -3200
+=======
+  Id: 14940255996754961558
+  Name: "Craftsman Part - Wall 01"
+  Transform {
+    Location {
+      X: 4650
+      Y: -2850
+>>>>>>> Stashed changes
       Z: -200
     }
     Rotation {
+      Yaw: -90
     }
     Scale {
       X: 1
@@ -101,7 +114,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 14421336429618272312
+      Id: 12560833313786218806
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -124,6 +137,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+<<<<<<< Updated upstream
+=======
   Id: 5181891371530816117
   Name: "Craftsman Part - Wall 01"
   Transform {
@@ -179,6 +194,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+>>>>>>> Stashed changes
   Id: 1401360238530458542
   Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
   Transform {
