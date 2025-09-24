@@ -25,7 +25,6 @@ Objects {
   ChildIds: 16304107524568409870
   ChildIds: 14797690092682439163
   ChildIds: 17774722489592206694
-  ChildIds: 14999236065861208609
   ChildIds: 15520232243205192760
   ChildIds: 4426879284263662544
   ChildIds: 13448255995484759593
@@ -1391,61 +1390,6 @@ Objects {
       Z: -200
     }
     Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1980403840043012135
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 14999236065861208609
-  Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
-  Transform {
-    Location {
-      X: 4900
-      Y: -3250
-      Z: -200
-    }
-    Rotation {
-      Yaw: -90
     }
     Scale {
       X: 1
