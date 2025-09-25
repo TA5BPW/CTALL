@@ -1,0 +1,123 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "4a27870946f8471ebc7ac5643111b0c5"
+  OwnerAccountId: "a4d601ff73fb4a21950f848f2cabc8ac"
+  OwnerName: "BigBoomerBonanza"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 963553643367964164
+  value: 13617890126969854626
+}
+AssetIdsOriginalToNew {
+  key: 1379258053885003983
+  value: 5587424051702747056
+}
+AssetIdsOriginalToNew {
+  key: 1825260198147095578
+  value: 13556883705179174885
+}
+AssetIdsOriginalToNew {
+  key: 2182983696538155283
+  value: 4047456934578467980
+}
+AssetIdsOriginalToNew {
+  key: 3111862107488467620
+  value: 14083637758540462888
+}
+AssetIdsOriginalToNew {
+  key: 4529629057992528955
+  value: 7787850543863318093
+}
+AssetIdsOriginalToNew {
+  key: 5067045388593495006
+  value: 12870382271325687909
+}
+AssetIdsOriginalToNew {
+  key: 5760521142868998159
+  value: 2202120535464269576
+}
+AssetIdsOriginalToNew {
+  key: 5762128272532123187
+  value: 16739790369635816473
+}
+AssetIdsOriginalToNew {
+  key: 7187724588196960350
+  value: 5177592172951481329
+}
+AssetIdsOriginalToNew {
+  key: 7682849659687617617
+  value: 13232060968030860346
+}
+AssetIdsOriginalToNew {
+  key: 7734616986878925843
+  value: 4948935968608315350
+}
+AssetIdsOriginalToNew {
+  key: 8012589160691662929
+  value: 18093568014933480700
+}
+AssetIdsOriginalToNew {
+  key: 8825247307102704158
+  value: 13806873635315476562
+}
+AssetIdsOriginalToNew {
+  key: 9024558632607587343
+  value: 2809267879485153970
+}
+AssetIdsOriginalToNew {
+  key: 10753881521378665613
+  value: 16539189400836441227
+}
+AssetIdsOriginalToNew {
+  key: 11011818506039421924
+  value: 3921215735382018492
+}
+AssetIdsOriginalToNew {
+  key: 13202541881111687007
+  value: 15286645767037828980
+}
+AssetIdsOriginalToNew {
+  key: 14500959519011452174
+  value: 15688218075535436787
+}
+AssetIdsOriginalToNew {
+  key: 14558992986754914916
+  value: 12310990808115824420
+}
+AssetIdsOriginalToNew {
+  key: 14755478598846300628
+  value: 16003417557557543438
+}
+AssetIdsOriginalToNew {
+  key: 14948909541544219748
+  value: 13415933130391989495
+}
+AssetIdsOriginalToNew {
+  key: 15490071201387377513
+  value: 368769641893587788
+}
+AssetIdsOriginalToNew {
+  key: 15907879145502891868
+  value: 17206835622886850450
+}
+AssetIdsOriginalToNew {
+  key: 15938848197949322893
+  value: 17361966758537471059
+}
+AssetIdsOriginalToNew {
+  key: 16381510388594157136
+  value: 6355793517938965186
+}
+AssetIdsOriginalToNew {
+  key: 16867248616906189975
+  value: 15834668309792861184
+}
+AssetIdsOriginalToNew {
+  key: 17874450837367991827
+  value: 16815153732403003199
+}
+AssetIdsOriginalToNew {
+  key: 18164394297650649160
+  value: 3190506098698677919
+}
